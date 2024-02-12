@@ -1,5 +1,5 @@
 # Anime Search Application
 
-As all cool people, I also love anime.
-This is a cool simple vanilla typescript, scss, html project. 
-This project is made as part of the Skills program in Moveo.
+As an enthusiast of anime, I too have an appreciation for it.\
+This project is a simple yet cool vanilla TypeScript, SCSS, and HTML project.\
+It was developed as part of the Skills program at Moveo.
