@@ -1,21 +1,6 @@
-interface Anime {
-    name: string;
-    img: string;
-}
-
+import { Anime } from "../types/types";
 
 let animeList: Anime[] = []
-
-// best practice, update state through return and not the state from the function itself.
-async function fetchAnimeData(): Promise<Anime[]> {
-    try {
-        const response = await fetch('../animes.json');
-        animeList = await response.json();
-    } catch (error) {
-        console.error('Error fetching anime data:', error);
-        return [];
-    }
-}
 
 document.addEventListener("DOMContentLoaded", () => {
     fetchAnimeData().then(() => {
