@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
             const searchInput = document.getElementById("searchInput") as HTMLInputElement
             searchInput.disabled = false
             searchInput.placeholder = "search for an anime!"
-                
 
 
 
